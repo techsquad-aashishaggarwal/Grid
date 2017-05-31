@@ -1,0 +1,311 @@
+/* setting width to grid 1 class*/
+.grid_1
+{
+	width:60px;
+}
+
+/* setting width to grid 2 class*/
+.grid_2
+{
+	width:140px;
+}
+
+/* setting width to grid 3 class*/
+.grid_3
+{
+	width:220px;
+}
+
+/* setting width and height attribute for img tag of grid 3 class*/
+.grid_3 img
+{
+	width:200px;
+	height:200px;
+}
+
+
+/* setting width to grid 4 class*/
+.grid_4
+{
+	width:300px;
+}
+
+.grid_4 img
+{
+	width:200px;
+	height:200px;
+}
+
+/* setting width to grid 5 class*/
+.grid_5
+{
+	width:380px;
+}
+
+/* setting width to grid 6 class*/
+.grid_6
+{
+	width:460px;
+}
+
+/* setting width to grid 7 class*/
+.grid_7
+{
+	width:540px;
+}
+
+/* setting width to grid 8 class*/
+.grid_8
+{
+	width:620px;
+}
+
+/* setting width to grid 9 class*/
+.grid_9
+{
+	width:700px;
+}
+
+/* setting width to grid 10 class*/
+.grid_10
+{
+	width:780px;
+}
+
+/* setting width to grid 11 class*/
+.grid_11
+{
+	width:860px;
+}
+
+/* setting width to grid 12 class*/
+.grid_12
+{
+	width:940px;
+}
+
+/* setting style to a column class*/
+.column
+{
+	margin :0  10px;
+	overflow:hidden;
+	float:left;
+	display:inline;
+}
+
+/* setting style to a row class*/
+.row
+{
+	margin :0  auto;
+	/*overflow:hidden;*/
+	width:960px;
+}
+
+/* Applying styling to the body area,here the Google font style is also applied*/
+body
+{
+	line-height:1.5;
+	padding:0;
+	margin:0;
+	background-color:#f4f4f4;
+ 	font-family: 'Bree Serif', serif;
+}
+
+/*Applying Global style for ul*/
+ul
+{
+		margin:0;
+		padding:0;
+}
+
+/*Applying Global style for button_1 class,all the buttons will have the same styles*/
+.button_1
+{
+	height:38px;
+	background:#e8591d;
+	border:0;
+	padding-left:20px;
+	padding-right:20px;
+	color:#ffffff;
+}
+
+/*Applying Global style for container class*/
+.container
+{
+	width:80%;
+	margin:auto;/*for centre allign*/
+	overflow:hidden;
+}
+
+/*Applying style to the header tag*/
+header
+{
+	position:fixed; 
+    	width:100%;
+	background:#35424a;
+	color:#ffffff;
+	padding-top:30px;
+	min-height:70px;
+	border-bottom:#e8491d 3px solid;
+
+}
+
+/*Applying style to the anchor tag of header tag*/
+header a
+{
+		color:#ffffff;
+		text-decoration:none;
+		text-transform:uppercase;
+		font-size:16px;
+}
+
+/*Applying style to the li tag of header tag*/
+header li
+{
+		float:left;
+		display:inline;
+		padding:0 20px 0 20px;
+}
+
+/*Applying style to the branding id of header tag so that it will be alligned left*/
+header #branding
+{
+		float:left;
+}
+
+/*Applying style to the h1 tag of branding id of header tag so that it will have no margin*/
+header #branding h1
+{
+		margin:0;
+}
+
+/*Applying style to the nav tag of header tag*/
+header nav
+{
+		float:right;
+		margin-top:10px;
+}
+
+/*Applying style to the showcase id*/
+#showcase
+{
+	min-height:400px;
+	background:url('../img/showcase.jpg') no-repeat;
+	text-align:center;
+	color:#ffffff;
+}
+
+/*Applying style to the h2 tag of showcase id*/
+#showcase h2
+{
+	margin-top:100px;
+	font-size:55px;
+	margin-bottom:10px;
+}
+
+/*Applying style to the p tag of showcase id*/
+#showcase p
+{
+	font-size:20px;
+}
+
+/*Applying style to the newsletter id*/
+#newsletter
+{
+	padding:15px;
+	color:#ffffff;
+	background:#35424a;
+}
+
+/*Applying style to the h2 tag of newsletter id*/
+.column grid_12 h2
+{
+	float:left;
+}
+
+/*Applying style to the form tag of newsletter id*/
+.column grid_12 form
+{
+	float:right;
+	margin-top:15px;
+}
+
+/*Applying style to the input tag of newsletter id*/
+#newsletter input[type="email"]
+{
+	padding:4px;
+	height:25px;
+	width:250px;
+}
+
+/*Applying style to the pictures id*/
+#pictures
+{
+	margin-top:20px;
+}
+
+
+/*Applying style to the box class of pictures id*/
+#pictures .box
+{
+	float:left;
+	width:30%;
+	padding:10px;
+	text-align:center;
+}
+
+/*Applying style to the img tag of box class of pictures id*/
+#pictures .box img
+{
+	width:250px;
+	height:250px;
+}
+
+/*Applying style to the contact id*/
+#contact
+{
+	padding:15px;
+	color:#ffffff;
+	background:#35424a;
+}
+
+/*Applying style to the form tag of contact id*/
+#contact form
+{
+	float:left;
+}
+
+/*Applying style to the contact_details id of the contact id*/
+#contact #contact_details
+{
+	float:right;
+	margin-top:15px;
+}
+
+/*Applying style to the footer tag*/
+
+#facebook
+{
+	font-size:24px;
+	color:#002e4d;
+}
+
+
+#twitter
+{
+	font-size:24px;
+	color:#002e4d;
+}
+
+footer
+{
+	padding:20px;
+	margin-top:20px;
+	color:#ffffff;
+	background-color:#e8491d;
+	text-align:center;
+}
+
+
+
+
